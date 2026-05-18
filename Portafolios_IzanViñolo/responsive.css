@@ -1,0 +1,27 @@
+@media (max-width: 750px) {
+    .navegacion-principal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .seccion-perfil {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .caja-imagen {
+        flex: auto;
+        width: 100%;
+        margin-bottom: var(--padding-buit-izan);
+    }
+
+    .seccion-contacto {
+        flex-direction: column;
+    }
+}
